@@ -1,0 +1,113 @@
+/* Загальні стилі сторінки */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    color: #333;
+}
+
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2b3a67;
+    font-size: 2.4em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2 {
+    text-align: center;
+    color: #3b5998;
+    margin-top: 40px;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.05em;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+/* Стиль підкресленого блоку */
+.highlight {
+    font-family: "Monotype Corsiva", cursive;
+    color: #7a3eb1;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+/* Стиль списку */
+ul {
+    list-style-type: circle;
+    padding-left: 50px;
+    margin: 10px 0 30px;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 1.05em;
+}
+
+/* Стиль зображення */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Стиль iframe */
+iframe {
+    display: block;
+    margin: 30px auto;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Горизонтальна лінія */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ddd;
+    margin: 40px 0;
+}
+
+/* Посилання */
+a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #005fa3;
+}
+
+/* Нижній блок контактів */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #666;
+}
